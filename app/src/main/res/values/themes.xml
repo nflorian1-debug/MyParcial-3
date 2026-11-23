@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyParcial" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primary_coral</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/desayuno_container</item>
+        <item name="colorOnPrimaryContainer">@color/primary_orange_dark</item>
+
+        <item name="colorSecondary">@color/primary_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/primary_coral</item>
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+
+    <style name="Theme.MyParcial" parent="Base.Theme.MyParcial" />
+
+    <!-- Custom Card Style -->
+    <style name="RecipeCardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <!-- Custom Chip Style -->
+    <style name="CategoryChipStyle" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">20dp</item>
+        <item name="chipMinTouchTargetSize">40dp</item>
+    </style>
+</resources>

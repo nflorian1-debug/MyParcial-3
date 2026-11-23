@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="140dp"
+    android:viewportWidth="200"
+    android:viewportHeight="140">
+    <path
+        android:fillColor="#FBE9E7"
+        android:pathData="M0,0h200v140H0z"/>
+    <!-- Bowl -->
+    <path
+        android:fillColor="#FFAB91"
+        android:pathData="M30,70 C30,125 170,125 170,70 Z"/>
+    <!-- Pasta -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M45,75 C60,50 90,80 100,60 C110,80 140,50 155,75 Z"/>
+    <!-- Tomatoes -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M65,70 A8,8 0 1,0 81,70 A8,8 0 1,0 65,70"/>
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M120,68 A8,8 0 1,0 136,68 A8,8 0 1,0 120,68"/>
+    <!-- Basil leaves -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M95,65 C85,55 95,45 105,55 C105,65 95,65 95,65 Z"/>
+</vector>

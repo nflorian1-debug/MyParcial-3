@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/RecipeListFragment">
+
+    <fragment
+        android:id="@+id/RecipeListFragment"
+        android:name="com.example.myparcial.fragments.RecipeListFragment"
+        android:label="@string/title_inicio"
+        tools:layout="@layout/fragment_recipe_list">
+
+        <action
+            android:id="@+id/action_RecipeList_to_RecipeDetail"
+            app:destination="@id/RecipeDetailFragment" />
+        <action
+            android:id="@+id/action_RecipeList_to_RecipeForm"
+            app:destination="@id/RecipeFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/FavoritesFragment"
+        android:name="com.example.myparcial.fragments.FavoritesFragment"
+        android:label="@string/title_favoritas"
+        tools:layout="@layout/fragment_favorites">
+
+        <action
+            android:id="@+id/action_Favorites_to_RecipeDetail"
+            app:destination="@id/RecipeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/RecipeDetailFragment"
+        android:name="com.example.myparcial.fragments.RecipeDetailFragment"
+        android:label="@string/title_detalle_receta"
+        tools:layout="@layout/fragment_recipe_detail">
+
+        <argument
+            android:name="recipeId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+
+        <action
+            android:id="@+id/action_RecipeDetail_to_RecipeForm"
+            app:destination="@id/RecipeFormFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/RecipeFormFragment"
+        android:name="com.example.myparcial.fragments.RecipeFormFragment"
+        android:label="@string/title_nueva_receta"
+        tools:layout="@layout/fragment_recipe_form">
+
+        <argument
+            android:name="recipeId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+</navigation>

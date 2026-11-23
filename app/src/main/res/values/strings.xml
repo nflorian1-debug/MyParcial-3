@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recetario</string>
+    <string name="title_inicio">Mis Recetas</string>
+    <string name="title_favoritas">Favoritas</string>
+    <string name="title_nueva_receta">Nueva Receta</string>
+    <string name="title_editar_receta">Editar Receta</string>
+    <string name="title_detalle_receta">Detalle de Receta</string>
+
+    <!-- Categories / Modalidad -->
+    <string name="cat_todas">Todas</string>
+    <string name="cat_desayuno">Desayuno</string>
+    <string name="cat_almuerzo">Almuerzo</string>
+    <string name="cat_postre">Postre</string>
+
+    <string name="cat_desayunos">Desayunos</string>
+    <string name="cat_almuerzos">Almuerzos</string>
+    <string name="cat_postres">Postres</string>
+
+    <string name="cat_single_desayuno">Desayuno</string>
+    <string name="cat_single_almuerzo">Almuerzo</string>
+    <string name="cat_single_postre">Postre</string>
+
+    <!-- Fields & Labels -->
+    <string name="lbl_buscar">Buscar receta por nombre...</string>
+    <string name="lbl_modalidad">Modalidad de la Receta</string>
+    <string name="lbl_titulo">Título de la receta</string>
+    <string name="lbl_porciones_base">Porciones base</string>
+    <string name="lbl_tiempo_prep">Tiempo de preparación (min)</string>
+    <string name="lbl_dificultad">Nivel de dificultad</string>
+    <string name="lbl_tiempo_reposo">Tiempo de reposo / horneado (min)</string>
+    <string name="lbl_ingredientes">Ingredientes</string>
+    <string name="lbl_pasos">Pasos de preparación</string>
+    <string name="lbl_foto">Fotografía de la receta</string>
+    <string name="btn_seleccionar_foto">Cambiar foto de la galería</string>
+    <string name="btn_agregar_ingrediente">+ Agregar ingrediente</string>
+    <string name="btn_guardar">Guardar Receta</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_editar">Editar</string>
+
+    <!-- Difficulty options -->
+    <string name="dif_facil">Fácil</string>
+    <string name="dif_media">Media</string>
+    <string name="dif_dificil">Difícil</string>
+
+    <!-- Detail Screen -->
+    <string name="lbl_porciones">Porciones:</string>
+    <string name="lbl_ingredientes_seccion">Ingredientes (calculados):</string>
+    <string name="lbl_pasos_seccion">Pasos de Preparación:</string>
+    <string name="lbl_minutos">%1$d min</string>
+
+    <!-- Empty States -->
+    <string name="empty_recipes_title">¡Aún no hay recetas aquí!</string>
+    <string name="empty_recipes_subtitle">Empieza a construir tu libro de cocina. Toca el botón (+) para registrar tu primera receta.</string>
+    <string name="empty_search_subtitle">No se encontraron recetas con ese nombre o en esta categoría.</string>
+    <string name="empty_favorites_title">Sin recetas favoritas</string>
+    <string name="empty_favorites_subtitle">Toca el ícono del corazón en cualquier receta para guardarla aquí y acceder rápido a ella.</string>
+
+    <!-- Toast / Messages -->
+    <string name="msg_receta_guardada">Receta guardada exitosamente</string>
+    <string name="msg_receta_eliminada">Receta eliminada</string>
+    <string name="msg_error_titulo">Por favor, ingresa el título de la receta</string>
+    <string name="msg_error_ingredientes">Agrega al menos un ingrediente completo</string>
+    <string name="msg_confirm_delete">¿Estás seguro de que deseas eliminar la receta "%1$s"?</string>
+    <string name="cancelar">Cancelar</string>
+</resources>
